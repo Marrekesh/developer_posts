@@ -1,0 +1,23 @@
+.developer-list {
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border: 2px solid #69abce;
+        padding: 15px;
+        margin-bottom: 5px;
+
+        &-name, &-text {
+            color: #69abce;
+        }
+        &-name {
+            color: blueviolet;
+            margin-right: 50px;
+            width: 25%;
+
+        }
+    }
+    &__wrapper {
+        display: flex;
+    }
+}

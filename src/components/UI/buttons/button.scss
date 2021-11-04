@@ -1,0 +1,17 @@
+.btn {
+    width: 200px;
+    padding: 5px 15px;
+    color: #69abce;
+    background: transparent;
+    border: 1px solid #69abce;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+        background: #69abce;
+        color: #fff;
+    }
+    &__add {
+        margin: 0 auto;
+    }
+}
+

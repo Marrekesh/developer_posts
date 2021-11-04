@@ -1,0 +1,12 @@
+.app {
+    &__input {
+        border: 1px solid #69abce;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+    ::placeholder {
+        color:#69abce;
+        opacity: 1; 
+        transition: opacity 0.3s ease;
+    }
+}

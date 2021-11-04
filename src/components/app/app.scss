@@ -1,0 +1,22 @@
+.app {
+	width: 1130px;
+	margin: 0 auto;
+	padding: 50px 10px 25px 10px;
+    position: relative;
+	border: 1px solid #69abce;
+}
+
+.page {
+	padding: 10px;
+	border: 1px solid #69abce;
+	cursor: pointer;
+	margin-right: 5px;
+	&__current {
+		border: 2px solid orange;
+		font-weight: bold;
+	}
+}
+
+.page__wrapper {
+	display: flex;
+}
