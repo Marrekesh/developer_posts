@@ -9,15 +9,18 @@
 
         &-name, &-text {
             color: #69abce;
+            text-decoration: none;
         }
         &-name {
             color: blueviolet;
             margin-right: 50px;
             width: 25%;
 
+
         }
     }
     &__wrapper {
         display: flex;
+        text-decoration: none;
     }
 }

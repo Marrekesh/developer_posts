@@ -1,7 +1,7 @@
 
 import '../DeveloperListItem/DeveloperListItem'
 import DeveloperListItem from '../DeveloperListItem/DeveloperListItem';
-
+import {useParams, Link} from 'react-router-dom'
 
 
 
@@ -17,14 +17,15 @@ const DeveloperList = ({developer, remove}) => {
         developer.map(element => {
         const {id, ...items} = element;
         return (
-            <DeveloperListItem
-            key={id}
-            {...items}
-            remove={remove}
-            element={element}/>
-        )
-    })
-
+            <Link key={id} to={`/post/${id}`} className="item">
+                <DeveloperListItem
+                key={id}
+                {...items}
+                remove={remove}
+                element={element}/>
+             </Link>
+            )
+        })
     return (
         <div className="developer-list">
             {elements}
